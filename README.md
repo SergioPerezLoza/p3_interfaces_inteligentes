@@ -14,3 +14,25 @@ Al iniciar el juego, tanto el cubo como la esfera caerán hacia el plano debido 
 Ambos objetos colisionarán con el plano debido a los colliders del plano, del cubo y de la esfera.
 El cubo y la esfera también colisionarán entre sí si entran en contacto, ya que ambos tienen Rigidbody y colliders.
 ![Video 2](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/practica3-SampleScene-Windows_-Mac_-Linux-Unity-2021.3.38f1-Education_-_DX11_-2024-10-13-15-40-29.gif)
+
+**Situación 3**:
+Al iniciar el juego, el cubo caerá hacia el plano debido a la gravedad y aterrizará sobre el plano, ya que ambos tienen colliders.
+La esfera, al estar en modo cinemático, no caerá ni se moverá debido a la gravedad. En su lugar, permanecerá en su posición actual hasta que sea movida explícitamente a través de un script o manipulación manual.
+El cubo y la esfera podrán colisionar entre sí, pero la esfera no será afectada por la colisión debido a que es cinemática. Sin embargo, la esfera sí puede empujar al cubo si es movida a través de un script.
+![image](https://github.com/user-attachments/assets/693d20fc-5a86-4f49-910f-67039ec1a5f9)
+
+**Situación 4**:
+Al iniciar el juego, tanto el cubo como la esfera serán afectados por la gravedad y caerán sobre el plano.
+El plano no se moverá debido a que está marcado como cinemático, pero actuará como una superficie sólida donde los otros objetos (cubo y esfera) podrán caer y reposar.
+La esfera y el cubo colisionarán entre sí y con el plano. Ambos responderán a las fuerzas físicas, como el rebote o el deslizamiento sobre el plano, dependiendo de sus propiedades físicas.
+![Video 2](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/practica3-SampleScene-Windows_-Mac_-Linux-Unity-2021.3.38f1-Education_-_DX11_-2024-10-13-15-40-29.gif)
+
+**Situación 5**:
+
+**Situación 6**:
+
+**Situación 7**:
+
+**Situación 8**:
+
+**Situación 9**:
