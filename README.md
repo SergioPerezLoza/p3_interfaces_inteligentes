@@ -32,7 +32,7 @@ Todos los objetos caerán al mismo tiempo debido a la gravedad, pero la esfera t
 Al colisionar, el cubo será más afectado que la esfera, es decir, se moverá más.
 Cuando los objetos interactúan entre sí, el cubo tiende a moverse más rápido que la esfera en colisiones directas debido a su menor masa. Esto también puede hacer que el cubo "salte" o se desplace más rápidamente que la esfera.
 
-![situacion 5]()
+![situacion 5](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/practica3-SampleScene-Windows_-Mac_-Linux-Unity-2021.3.38f1-Education_-_DX11_-2024-10-13-17-07-08.gif)
 
 **Situación 6**:
 
