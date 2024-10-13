@@ -13,4 +13,4 @@ La esfera no será afectada por la gravedad porque no tiene un Rigidbody, y tamp
 Al iniciar el juego, tanto el cubo como la esfera caerán hacia el plano debido a la gravedad, ya que ambos tienen Rigidbody y la opción Use Gravity está activada.
 Ambos objetos colisionarán con el plano debido a los colliders del plano, del cubo y de la esfera.
 El cubo y la esfera también colisionarán entre sí si entran en contacto, ya que ambos tienen Rigidbody y colliders.
-![Video 2]()
+![Video 2](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/practica3-SampleScene-Windows_-Mac_-Linux-Unity-2021.3.38f1-Education_-_DX11_-2024-10-13-15-40-29.gif)
