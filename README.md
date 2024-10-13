@@ -28,6 +28,11 @@ La esfera y el cubo colisionarán entre sí y con el plano. Ambos responderán a
 ![Video 2](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/practica3-SampleScene-Windows_-Mac_-Linux-Unity-2021.3.38f1-Education_-_DX11_-2024-10-13-15-40-29.gif)
 
 **Situación 5**:
+Todos los objetos caerán al mismo tiempo debido a la gravedad, pero la esfera tendrá una mayor inercia y podría rebotar de manera diferente al cubo debido a la diferencia de masas.
+Al colisionar, el cubo será más afectado que la esfera, es decir, se moverá más.
+Cuando los objetos interactúan entre sí, el cubo tiende a moverse más rápido que la esfera en colisiones directas debido a su menor masa. Esto también puede hacer que el cubo "salte" o se desplace más rápidamente que la esfera.
+
+![situacion 5]()
 
 **Situación 6**:
 
