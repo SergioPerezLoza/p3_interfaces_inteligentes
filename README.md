@@ -35,6 +35,9 @@ Cuando los objetos interactúan entre sí, el cubo tiende a moverse más rápido
 ![situacion 5](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/practica3-SampleScene-Windows_-Mac_-Linux-Unity-2021.3.38f1-Education_-_DX11_-2024-10-13-17-07-08.gif)
 
 **Situación 6**:
+En este caso con la esfera 100 con veces más masa que el cubo en lugar de 10, el comportamiento esperado será similar, pero con un mayor impacto en la física, especialmente en situaciones de colisiones como se puede observar cuando impacta con el cubo
+
+![situacion 6](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/practica3-SampleScene-Windows_-Mac_-Linux-Unity-2021.3.38f1-Education_-_DX11_-2024-10-13-17-16-22.gif)
 
 **Situación 7**:
 
