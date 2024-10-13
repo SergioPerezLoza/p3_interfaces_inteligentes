@@ -40,7 +40,13 @@ En este caso con la esfera 100 con veces más masa que el cubo en lugar de 10, e
 ![situacion 6](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/practica3-SampleScene-Windows_-Mac_-Linux-Unity-2021.3.38f1-Education_-_DX11_-2024-10-13-17-16-22.gif)
 
 **Situación 7**:
-
+En esta situación, tanto el cubo como la esfera caerán debido a la gravedad. El cubo se deslizará sobre el plano al caer, mientras que la esfera, debido a su fricción, se detendrá más rápidamente al hacer contacto con el plano, resistiendo más el movimiento. La fricción de la esfera hará que se adhiera mejor a la superficie.
+![situacion 7](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/practica3-SampleScene-Windows_-Mac_-Linux-Unity-2021.3.38f1-Education_-_DX11_-2024-10-13-22-48-37.gif)
 **Situación 8**:
+El plano permanecerá en su lugar porque tiene un Rigidbody pero sin gravedad.El cubo caerá debido a la gravedad. La esfera no caerá ni interactuará físicamente con los otros objetos, pero podrá detectar colisiones debido a su Trigger.
+![imagen 8](![image](https://github.com/user-attachments/assets/db9539c3-5511-4bf9-a3c7-0e33245fe058)
 
 **Situación 9**:
+El plano se mantendrá en su lugar debido a su Rigidbody sin gravedad. El cubo caerá por gravedad y podrá interactuar físicamente con otros objetos. La esfera caerá debido a la gravedad (porque tiene un Rigidbody), pero no interactuará físicamente con otros objetos, ya que es un Trigger. En cambio, podrá detectar otros objetos que la atraviesen.
+
+![Situación 9]()
