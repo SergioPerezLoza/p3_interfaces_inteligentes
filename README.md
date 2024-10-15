@@ -55,7 +55,33 @@ El plano se mantendrá en su lugar debido a su Rigidbody sin gravedad. El cubo c
 ### Siguiente Ejercicio:
 **Ejercicio 1**
 
-**Ejercicio2**
+**Ejercicio 2**
 
 ![image](https://github.com/user-attachments/assets/25293050-7cc2-4225-a6a7-6f061c62fcc5)
 
+**Ejercicio 3**
+duplicas las coordenadas de la dirección del movimiento: El cubo debería moverse más rápido en esa dirección, ya que el vector de dirección ahora es el doble de grande.
+duplicas la velocidad manteniendo la dirección del movimiento: El cubo se moverá al doble de la velocidad.
+la velocidad que usas es menor que 1:El cubo se moverá más lentamente.
+la posición del cubo tiene y>0: El cubo se desplazará en el eje X (o en la dirección definida en moveDirection), pero su altura en el eje y permanecerá constante. El movimiento no afectará la posición y a menos que la cambies en moveDirection.
+intercambiar movimiento relativo al sistema de referencia local y el mundial: Con Space.World: El cubo se moverá de acuerdo al sistema de coordenadas globales, sin importar su rotación.
+Con Space.Self: El cubo se moverá en función de su orientación actual. Por ejemplo, si el cubo está rotado, se moverá en su "propia" dirección frontal, no necesariamente alineado con los ejes globales.
+
+**Ejercicio 4**
+
+**Ejercicio 5**
+En este ejercicio no pongo video ya que el resultado es el mismo que en el anterior. El Time.DeltaTime sirve en el caso de que si el juego corre en un ordenador con una tasa de frames baja o alta, el movimiento de los objetos seguirá siendo consistente.
+
+**Ejercicio 4**
+
+**Ejercicio 4**
+
+**Ejercicio 4**
+
+**Ejercicio 4**
+
+**Ejercicio 4**
+
+**Ejercicio 4**
+
+**Ejercicio 4**
