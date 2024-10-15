@@ -57,5 +57,5 @@ El plano se mantendrá en su lugar debido a su Rigidbody sin gravedad. El cubo c
 
 **Ejercicio2**
 
-![Ejer 2](![image](https://github.com/user-attachments/assets/25293050-7cc2-4225-a6a7-6f061c62fcc5)
+![image](https://github.com/user-attachments/assets/25293050-7cc2-4225-a6a7-6f061c62fcc5)
 
