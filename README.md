@@ -50,3 +50,12 @@ El plano permanecerá en su lugar porque tiene un Rigidbody pero sin gravedad.El
 El plano se mantendrá en su lugar debido a su Rigidbody sin gravedad. El cubo caerá por gravedad y podrá interactuar físicamente con otros objetos. La esfera caerá debido a la gravedad (porque tiene un Rigidbody), pero no interactuará físicamente con otros objetos, ya que es un Trigger. En cambio, podrá detectar otros objetos que la atraviesen.
 
 ![Situación 9](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/practica3-SampleScene-Windows_-Mac_-Linux-Unity-2021.3.38f1-Education_-_DX11_-2024-10-13-23-00-00.gif)
+
+
+### Siguiente Ejercicio:
+**Ejercicio 1**
+
+**Ejercicio2**
+
+![Ejer 2](![image](https://github.com/user-attachments/assets/25293050-7cc2-4225-a6a7-6f061c62fcc5)
+
