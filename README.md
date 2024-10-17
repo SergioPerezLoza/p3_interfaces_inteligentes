@@ -72,16 +72,37 @@ Con Space.Self: El cubo se moverá en función de su orientación actual. Por ej
 **Ejercicio 5**
 En este ejercicio no pongo video ya que el resultado es el mismo que en el anterior. El Time.DeltaTime sirve en el caso de que si el juego corre en un ordenador con una tasa de frames baja o alta, el movimiento de los objetos seguirá siendo consistente.
 
-**Ejercicio 4**
+**Ejercicio 6**
 
-**Ejercicio 4**
+**Ejercicio 7**
 
-**Ejercicio 4**
+**Ejercicio 8**
 
-**Ejercicio 4**
+**Ejercicio 9**
+![image](https://github.com/user-attachments/assets/d8e89169-f957-4cff-b13b-76e07fd32a6a)
 
-**Ejercicio 4**
 
-**Ejercicio 4**
+**Ejercicio 10**
+![image](https://github.com/user-attachments/assets/9d8c59e7-3167-446a-b886-95af7edc5a97)
 
-**Ejercicio 4**
+
+**Ejercicio 11**
+![image](https://github.com/user-attachments/assets/6b8106d3-9418-4a14-9266-0c610c426780)
+
+
+**Ejercicio 12**
+**Esfera con mayor masa que el Cilindro**:
+La Esfera tiene una gran influencia en las colisiones. El Cilindro es empujado considerablemente por la Esfera debido a la diferencia de masa.
+
+**Esfera con menor masa que el Cilindro**:
+El Cilindro empuja fácilmente la Esfera. El impacto en la Esfera es grande, mientras que el Cilindro casi no se ve afectado.
+
+**Esfera como cinemática**:
+La Esfera permanece inmóvil al colisionar con el Cilindro, pero este es empujado o detenido según la dirección y fuerza aplicada.
+
+**Esfera como Trigger**:
+El Cilindro atraviesa la Esfera sin interacción física, aunque puede dispararse un evento de colisión a través de scripts si se usa OnTriggerEnter.
+
+**Ajuste de fricción del Cilindro**:
+Con fricción alta, el Cilindro se mueve lentamente y se detiene rápidamente.
+Con fricción baja, el Cilindro se desliza y tarda más en detenerse después de recibir una fuerza o impulso.
