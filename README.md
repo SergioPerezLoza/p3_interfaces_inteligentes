@@ -73,7 +73,7 @@ Con Space.Self: El cubo se moverá en función de su orientación actual. Por ej
 En este ejercicio no pongo video ya que el resultado es el mismo que en el anterior. El Time.DeltaTime sirve en el caso de que si el juego corre en un ordenador con una tasa de frames baja o alta, el movimiento de los objetos seguirá siendo consistente.
 
 **Ejercicio 6**
-![video 4]()
+![video 4](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/My-project3_b_-SampleScene-Windows_-Mac_-Linux-Unity-2021.3%20(3).gif)
 **Ejercicio 7**
 ![video 4]()
 **Ejercicio 8**
