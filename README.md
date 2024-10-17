@@ -75,7 +75,7 @@ En este ejercicio no pongo video ya que el resultado es el mismo que en el anter
 **Ejercicio 6**
 ![video 4](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/My-project3_b_-SampleScene-Windows_-Mac_-Linux-Unity-2021.3%20(3).gif)
 **Ejercicio 7**
-![video 4]()
+![video 4](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/My-project3_b_-SampleScene-Windows_-Mac_-Linux-Unity-2021.3_1.gif)
 **Ejercicio 8**
 ![video 4](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/My-project3_b_-SampleScene-Windows_-Mac_-Linux-Unity-2021.3_1%20(1).gif)
 **Ejercicio 9**
