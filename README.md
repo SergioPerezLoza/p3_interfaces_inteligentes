@@ -96,6 +96,7 @@ public class movimientocubo : MonoBehaviour
 **Ejercicio 2**
 
 ![image](https://github.com/user-attachments/assets/25293050-7cc2-4225-a6a7-6f061c62fcc5)
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -121,7 +122,7 @@ public class disparo : MonoBehaviour
     }
 }
 
-
+```
 **Ejercicio 3**
 duplicas las coordenadas de la dirección del movimiento: El cubo debería moverse más rápido en esa dirección, ya que el vector de dirección ahora es el doble de grande.
 duplicas la velocidad manteniendo la dirección del movimiento: El cubo se moverá al doble de la velocidad.
@@ -130,7 +131,7 @@ la posición del cubo tiene y>0: El cubo se desplazará en el eje X (o en la dir
 intercambiar movimiento relativo al sistema de referencia local y el mundial: Con Space.World: El cubo se moverá de acuerdo al sistema de coordenadas globales, sin importar su rotación.
 Con Space.Self: El cubo se moverá en función de su orientación actual. Por ejemplo, si el cubo está rotado, se moverá en su "propia" dirección frontal, no necesariamente alineado con los ejes globales.
 
-
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -151,9 +152,10 @@ public class movimientoCuboAvanzado : MonoBehaviour
         transform.Translate(moveDirection * speed * Time.deltaTime, Space.World);
     }
 }
-
+```
 **Ejercicio 4**
 ![video 4](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/My-project3_b_-SampleScene-Windows_-Mac_-Linux-Unity-2021.3%20(2).gif)
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -189,10 +191,10 @@ public class movimientocubo : MonoBehaviour
         }
     }
 }
-
+```
 **Ejercicio 5**
 En este ejercicio no pongo video ya que el resultado es el mismo que en el anterior. El Time.DeltaTime sirve en el caso de que si el juego corre en un ordenador con una tasa de frames baja o alta, el movimiento de los objetos seguirá siendo consistente.
-
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -256,9 +258,10 @@ public class objetosmovimiento : MonoBehaviour
     }
 }
 
-
+```
 **Ejercicio 6**
 ![video 4](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/My-project3_b_-SampleScene-Windows_-Mac_-Linux-Unity-2021.3%20(3).gif)
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -311,10 +314,12 @@ public class ejer6 : MonoBehaviour
         esferaPosicionAnterior = esfera.transform.position;
     }
 }
+```
 
 **Ejercicio 7**
 ![video 4](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/My-project3_b_-SampleScene-Windows_-Mac_-Linux-Unity-2021.3_1.gif)
 
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -380,10 +385,10 @@ public class ejer7 : MonoBehaviour
         cubo.transform.position = Vector3.Lerp(cubo.transform.position, nuevaPosicion, Time.deltaTime * 5f);
     }
 }
-
+```
 **Ejercicio 8**
 ![video 4](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/My-project3_b_-SampleScene-Windows_-Mac_-Linux-Unity-2021.3_1%20(1).gif)
-
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -408,9 +413,10 @@ public class ejer8 : MonoBehaviour
         Debug.DrawRay(transform.position, transform.forward * 2f, Color.red);
     }
 }
-
+```
 **Ejercicio 9**
 ![image](https://github.com/user-attachments/assets/d8e89169-f957-4cff-b13b-76e07fd32a6a)
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -427,11 +433,12 @@ public class DeteccionColision : MonoBehaviour
         Debug.Log("El objeto con la etiqueta: " + objetoColisionado.tag + " ha colisionado con el cilindro.");
     }
 }
-
+```
 
 **Ejercicio 10**
 ![image](https://github.com/user-attachments/assets/9d8c59e7-3167-446a-b886-95af7edc5a97)
 
+```csharp
   using UnityEngine;
 
 public class ejer10 : MonoBehaviour
@@ -448,10 +455,10 @@ public class ejer10 : MonoBehaviour
         Debug.Log("Trigger activado por: " + other.gameObject.tag);
     }
 }
-
+```
 **Ejercicio 11**
 ![image](https://github.com/user-attachments/assets/6b8106d3-9418-4a14-9266-0c610c426780)
-
+```csharp
 using UnityEngine;
 
 public class ejer11 : MonoBehaviour
@@ -464,7 +471,7 @@ public class ejer11 : MonoBehaviour
         Debug.Log("Trigger activado por: " + tagObjetoColisionado);
     }
 }
-
+```
 **Ejercicio 12**
 
 
@@ -480,6 +487,10 @@ La Esfera permanece inmóvil al colisionar con el Cilindro, pero este es empujad
 **Esfera como Trigger**:
 El Cilindro atraviesa la Esfera sin interacción física, aunque puede dispararse un evento de colisión a través de scripts si se usa OnTriggerEnter.
 
+**Ajuste de fricción del Cilindro**:
+Con fricción alta, el Cilindro se mueve lentamente y se detiene rápidamente.
+Con fricción baja, el Cilindro se desliza y tarda más en detenerse después de recibir una fuerza o impulso.
+```csharp
 using UnityEngine;
 
 public class ejer12 : MonoBehaviour
@@ -534,7 +545,5 @@ public class ejer12 : MonoBehaviour
     }
 }
 
+```
 
-**Ajuste de fricción del Cilindro**:
-Con fricción alta, el Cilindro se mueve lentamente y se detiene rápidamente.
-Con fricción baja, el Cilindro se desliza y tarda más en detenerse después de recibir una fuerza o impulso.
