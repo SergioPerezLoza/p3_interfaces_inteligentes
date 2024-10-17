@@ -91,6 +91,8 @@ En este ejercicio no pongo video ya que el resultado es el mismo que en el anter
 
 
 **Ejercicio 12**
+
+
 **Esfera con mayor masa que el Cilindro**:
 La Esfera tiene una gran influencia en las colisiones. El Cilindro es empujado considerablemente por la Esfera debido a la diferencia de masa.
 
