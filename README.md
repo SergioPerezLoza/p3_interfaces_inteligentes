@@ -56,6 +56,7 @@ El plano se mantendrá en su lugar debido a su Rigidbody sin gravedad. El cubo c
 **Ejercicio 1**
 ![video 1](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/My-project3_b_-SampleScene-Windows_-Mac_-Linux-Unity-2021.3%20(1).gif)
 
+'''
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -91,7 +92,7 @@ public class movimientocubo : MonoBehaviour
         }
     }
 }
-
+'''
 **Ejercicio 2**
 
 ![image](https://github.com/user-attachments/assets/25293050-7cc2-4225-a6a7-6f061c62fcc5)
