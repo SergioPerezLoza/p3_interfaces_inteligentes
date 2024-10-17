@@ -68,7 +68,7 @@ intercambiar movimiento relativo al sistema de referencia local y el mundial: Co
 Con Space.Self: El cubo se moverá en función de su orientación actual. Por ejemplo, si el cubo está rotado, se moverá en su "propia" dirección frontal, no necesariamente alineado con los ejes globales.
 
 **Ejercicio 4**
-![video 4]()
+![video 4](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/My-project3_b_-SampleScene-Windows_-Mac_-Linux-Unity-2021.3%20(2).gif)
 **Ejercicio 5**
 En este ejercicio no pongo video ya que el resultado es el mismo que en el anterior. El Time.DeltaTime sirve en el caso de que si el juego corre en un ordenador con una tasa de frames baja o alta, el movimiento de los objetos seguirá siendo consistente.
 
