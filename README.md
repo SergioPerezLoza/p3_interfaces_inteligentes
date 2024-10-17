@@ -54,7 +54,7 @@ El plano se mantendrá en su lugar debido a su Rigidbody sin gravedad. El cubo c
 
 ### Siguiente Ejercicio:
 **Ejercicio 1**
-
+![video 1](https://github.com/SergioPerezLoza/p3_interfaces_inteligentes/blob/main/My-project3_b_-SampleScene-Windows_-Mac_-Linux-Unity-2021.3%20(1).gif)
 **Ejercicio 2**
 
 ![image](https://github.com/user-attachments/assets/25293050-7cc2-4225-a6a7-6f061c62fcc5)
@@ -68,16 +68,16 @@ intercambiar movimiento relativo al sistema de referencia local y el mundial: Co
 Con Space.Self: El cubo se moverá en función de su orientación actual. Por ejemplo, si el cubo está rotado, se moverá en su "propia" dirección frontal, no necesariamente alineado con los ejes globales.
 
 **Ejercicio 4**
-
+![video 4]()
 **Ejercicio 5**
 En este ejercicio no pongo video ya que el resultado es el mismo que en el anterior. El Time.DeltaTime sirve en el caso de que si el juego corre en un ordenador con una tasa de frames baja o alta, el movimiento de los objetos seguirá siendo consistente.
 
 **Ejercicio 6**
-
+![video 4]()
 **Ejercicio 7**
-
+![video 4]()
 **Ejercicio 8**
-
+![video 4]()
 **Ejercicio 9**
 ![image](https://github.com/user-attachments/assets/d8e89169-f957-4cff-b13b-76e07fd32a6a)
 
